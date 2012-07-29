@@ -15,11 +15,4 @@
 
 ;;;Mainor mode setups
 (require 'autocomplate-setup)
-;(require 'yassnippet-setup)
-
-
-(put 'narrow-to-region 'disabled nil)
-(put 'narrow-to-defun 'disabled nil)
-(put 'narrow-to-page 'disabled nil)
-(put 'upcase-region 'disabled nil)
-(put 'downcase-region 'disabled nil)
+(require 'yassnippet-setup)
