@@ -8,7 +8,7 @@
   (remove-if-not #'file-directory-p (directory-files path)))
 
 (defun clear-from-parent-directory (paths)
-  (remove-if (apply-partially #'string-equal "..") paths))
+  (remove-if (apply-partially #'string-match "^\\.+") paths))
 
 (defun make-absolute-paths (paths)
   (mapcar #'expand-file-name paths))

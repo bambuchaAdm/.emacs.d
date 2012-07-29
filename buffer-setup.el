@@ -5,7 +5,8 @@
 (show-paren-mode 1)
 (setf uniquify-buffer-name-style 'post-forward)
 
-(global-set-key (kbd "C-c C-b") #'bs-show)
+(define-key global-map (kbd "C-c C-b") #'bs-show)
+
 
 (provide 'buffer-setup)
 
