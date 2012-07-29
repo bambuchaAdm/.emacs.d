@@ -1,0 +1,7 @@
+
+* TODO Read Semantic mode user commands
+
+* TODO Add nxml complete to auto-complate
+
+* TODO Add scheme for android mechanizm to nxml
+* TODO Move slime form system to .emacs.d directory 

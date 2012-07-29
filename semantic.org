@@ -1,0 +1,7 @@
+
+* TODO Read Semantic mode user commands
+* TODO Imprevoe expirience at work with auto-newline mainor mode
+  adding new line before and after block bracer.
+* TODO 
+
+
