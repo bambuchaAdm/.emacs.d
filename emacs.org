@@ -5,3 +5,4 @@
 
 * TODO Add scheme for android mechanizm to nxml
 * TODO Move slime form system to .emacs.d directory 
+* TODO Make gitsubmodules for third-part modules
