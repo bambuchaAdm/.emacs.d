@@ -3,6 +3,7 @@
 ** DONE Fix emacs load-path
 *** DONE Fix yassnipet (probably custom-load-path doesn't work)
     Wrong use function expand-directory-name
+** TODO C-x C-b should run bs-show (now buffer-list)
 
 * Improve emacs support for modes 
 
@@ -16,8 +17,10 @@
 * Emacs configs things
 
 ** TODO Make gitsubmodules for third-part modules
-** TODO Clear setup files from hardcoded path 
+** DONE Clear setup files from hardcoded path 
+   Fixed in 76dc6447c03795f24f74b2f3ad06cf08b5c3929d
 ** TODO Move slime from system to .emacs.d (installation and configuration)
+** TODO Add link to git commit for config from this file
 
 * Read, imporve knowladge
 
