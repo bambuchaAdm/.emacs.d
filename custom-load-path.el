@@ -1,3 +1,9 @@
+
+(defun create-path (&rest directories)
+  (let ((directories (mapcar #'file-name-as-directory directories))
+	(bootstrap-path (file-name-as-directory +bootstrap-path+)))
+    (apply #'concat bootstrap-path directories)))
+
 (defun get-direcotries-form-directory-list (paths)
   (remove-if-not #'file-directory-p paths))
 

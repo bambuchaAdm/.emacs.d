@@ -1,7 +1,7 @@
 (require 'custom-load-path)
 (require 'auto-complete-config)
 
-(defconst +auto-complete-ditct-path+ "~/emacs.d/auto-compete/ac-dict")
+(defconst +auto-complete-ditct-path+ (create-path "auto-compete" "ac-dict"))
 
 (add-to-list 'ac-dictionary-directories +auto-complete-ditct-path+)
 (ac-config-default)

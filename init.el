@@ -19,6 +19,7 @@
 (require 'autocomplate-setup)
 (require 'yasnippet-setup)
 
+
 (put 'narrow-to-region 'disabled nil)
 (put 'narrow-to-defun 'disabled nil)
 (put 'narrow-to-page 'disabled nil)

@@ -2,7 +2,7 @@
 
 (require 'yasnippet)
 
-(setf yas/snippet-dirs  (list "~/.emacs.d/yasnippet/snippets/"))
+(setf yas/snippet-dirs  (list (create-path "yasnippet" "snippets")))
 (yas/global-mode 1)
 (global-set-key (kbd "C-c TAB") 'yas/expand)
 
