@@ -1,8 +1,24 @@
+* General fix and other things
+
+** DONE Fix emacs load-path
+*** DONE Fix yassnipet (probably custom-load-path doesn't work)
+    Wrong use function expand-directory-name
+
+* Improve emacs support for modes 
+
+** TODO [#C] Add scheme for android mechanizm to nxml
+** DONE Move slime form system to .emacs.d directory 
+   Fixex by remove load-path and use system-base (Gentoo) slime
+** TODO [#A] Add flymake mode for python-check and nose test
+** TODO [#B] Add nxml complete to auto-complate
+
+
+* Emacs configs things
+
+** TODO Make gitsubmodules for third-part modules
+** TODO Clear setup files from hardcoded path 
+** TODO Move slime from system to .emacs.d (installation and configuration)
+
+* Read, imporve knowladge
 
 * TODO Read Semantic mode user commands
-
-* TODO Add nxml complete to auto-complate
-
-* TODO Add scheme for android mechanizm to nxml
-* TODO Move slime form system to .emacs.d directory 
-* TODO Make gitsubmodules for third-part modules
