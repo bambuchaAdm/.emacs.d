@@ -21,4 +21,6 @@
 
 * Read, imporve knowladge
 
-* TODO Read Semantic mode user commands
+** TODO Read Semantic mode user commands
+
+
