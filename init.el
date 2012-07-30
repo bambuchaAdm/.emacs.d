@@ -1,6 +1,8 @@
-(add-to-list 'load-path (expand-file-name "."))
+(defconst +bootstrap-path+ "/home/bambucha/.emacs.d")
+(add-to-list 'load-path +bootstrap-path+)
 
 (require 'custom-load-path)
+
 ;;Global misc setup
 (require 'os-setup)
 (require 'buffer-setup)
@@ -16,7 +18,6 @@
 ;;;Mainor mode setups
 (require 'autocomplate-setup)
 (require 'yasnippet-setup)
-
 
 (put 'narrow-to-region 'disabled nil)
 (put 'narrow-to-defun 'disabled nil)
