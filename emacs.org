@@ -3,7 +3,8 @@
 ** DONE Fix emacs load-path
 *** DONE Fix yassnipet (probably custom-load-path doesn't work)
     Wrong use function expand-directory-name
-** TODO C-x C-b should run bs-show (now buffer-list)
+** DONE C-x C-b should run bs-show (now buffer-list)
+   Just add require clausule.
 ** DONE Fullscreen after reload minimiezed windown
    Add state variable. 
 
