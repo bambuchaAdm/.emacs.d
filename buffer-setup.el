@@ -5,7 +5,7 @@
 (setf uniquify-buffer-name-style 'post-forward)
 
 (require 'bs)
-(global-set-key (kbd "C-c C-b") #'bs-show)
+(global-set-key (kbd "C-x C-b") #'bs-show)
 
 (provide 'buffer-setup)
 

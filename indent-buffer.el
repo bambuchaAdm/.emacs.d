@@ -1,3 +1,4 @@
+(require 'make-mode)
 (defun indent-buffer ()
   "indent whole buffer"
   (interactive)
