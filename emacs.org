@@ -15,6 +15,7 @@
 ** DONE Move slime form system to .emacs.d directory 
    Fixed by make load-path better  and use system-base (Gentoo) slime
 ** TODO [#B] Change complete mechanizm to auto-complate in nxml-mode
+** TODO [#B] Add suport maven to flymake-mode 
 
 
 * Emacs configs things
@@ -31,7 +32,11 @@
 ** DONE [#A] Add flymake mode for python-check
    In 64e9b8fa878db3f4e6af7747206d0cf9f9d61351 that modification enable global.
 
-** TODO [#A] Add support for django (build-file and other things)
+** DONE [#A] Add support for django (build-file and other things)
+
+** TODO Add support for testing tool (auto-run test for file/project)
+   It could be next mode (waspmake) to run external test runner and gets test result
+   Running with flymake but not that fast
 
 * Read, imporve knowladge
 
