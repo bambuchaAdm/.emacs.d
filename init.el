@@ -9,18 +9,20 @@
 (require 'frame-setup)
 (require 'enable-commands)
 
-;;;Major mode setups
+;;Major mode setups
 (require 'cc-setup)
 (require 'python-setup)
 (require 'slime-setup)
 (require 'nxml-setup)
 
-;;;Mainor mode setups
-(require 'autocomplate-setup)
+;;Mainor mode setups
 (require 'yasnippet-setup)
+(require 'autocomplate-setup)
 
+;;flymake
 (require 'flymake)
 (require 'flymake-python)
+(require 'flymake-ruby)
 
 
 (put 'narrow-to-region 'disabled nil)

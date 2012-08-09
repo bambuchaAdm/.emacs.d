@@ -7,7 +7,12 @@
    Just add require clausule.
 ** DONE Fullscreen after reload minimiezed windown
    Add state variable. 
-
+** DONE In ruby mode C-M-h has been define twice
+   By editing sourecode of emacs.
+   Better solution is change that keybind in setup
+   Or write something by myself (ruby-mode version is tragic)
+   
+   
 
 * Improve emacs support for modes 
 
@@ -34,9 +39,9 @@
 
 ** DONE [#A] Add support for django (build-file and other things)
 
-** TODO Add support for testing tool (auto-run test for file/project)
-   It could be next mode (waspmake) to run external test runner and gets test result
-   Running with flymake but not that fast
+** DONE Add support for testing tool (auto-run test for file/project)
+   Moved to waspmake
+
 
 * Read, imporve knowladge
 
