@@ -1,0 +1,22 @@
+
+* Ruby target for config in Emacs
+
+** TODO Clear ruby-mode in emacs
+   Or write something own for ruby
+
+** TODO Add semantic parser for ruby
+   This is first step for 
+
+** TODO Add initialize keyword in auto-complate dictionary
+   That doesn't exists
+
+* Refactors
+
+** TODO Move method
+*** TODO From class to class in one file 
+*** TODO From file to file (function)
+*** TODO From class in one file to class in another file 
+
+* Snippets
+
+** TODO 
