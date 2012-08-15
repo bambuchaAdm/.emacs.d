@@ -18,12 +18,7 @@
 ;;Mainor mode setups
 (require 'yasnippet-setup)
 (require 'autocomplate-setup)
-
-;;flymake
 (require 'flymake-setup)
-(require 'flymake-python)
-(require 'flymake-ruby)
-
 
 (put 'narrow-to-region 'disabled nil)
 (put 'narrow-to-defun 'disabled nil)
