@@ -4,11 +4,14 @@
 ** TODO Clear ruby-mode in emacs
    Or write something own for ruby
 
-** TODO Add semantic parser for ruby
-   This is first step for 
-
 ** TODO Add initialize keyword in auto-complate dictionary
    That doesn't exists
+
+
+* TODO Add semantic parser for ruby
+  This is first step for good refactors
+** TODO Add suport for diffrent number system
+** TODO Add suport to general delimited input characters
 
 * Refactors
 

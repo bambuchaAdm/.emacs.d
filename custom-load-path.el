@@ -1,3 +1,4 @@
+(require 'cl)
 
 (defun create-path (&rest directories)
   (let ((directories (mapcar #'file-name-as-directory directories))

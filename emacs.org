@@ -11,9 +11,8 @@
    By editing sourecode of emacs.
    Better solution is change that keybind in setup
    Or write something by myself (ruby-mode version is tragic)
-   
-   
 
+   
 * Improve emacs support for modes 
 
 ** TODO [#C] Add nxml scheme for android mechanizm to nxml
@@ -45,6 +44,8 @@
 
 * Read, imporve knowladge
 
+** TODO Read about Outline mode
+** TODO Read about Hideshow
 ** TODO Read Semantic mode user commands
 
 
