@@ -20,7 +20,7 @@
 (require 'autocomplate-setup)
 
 ;;flymake
-(require 'flymake)
+(require 'flymake-setup)
 (require 'flymake-python)
 (require 'flymake-ruby)
 
