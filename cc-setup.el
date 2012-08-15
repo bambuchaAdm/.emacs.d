@@ -1,7 +1,7 @@
 (require 'cc-mode)
 
 (defun cc-mode-compile-keybind ()
-  (define-key c-mode-base-map (kbd "C-c C-l") 'compile))
+  (define-key c-mode-base-map (kbd "C-c C-l") 'recompile))
 (add-hook 'c-initialization-hook #'cc-mode-compile-keybind)
 
 (defun cc-mode-CR-do-indent ()
