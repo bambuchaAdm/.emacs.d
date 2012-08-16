@@ -126,6 +126,7 @@ gsub
 gsub!
 if
 in
+initialize
 iterator?
 lambda
 load
