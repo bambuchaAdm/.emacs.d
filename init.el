@@ -14,6 +14,7 @@
 (require 'python-setup)
 (require 'slime-setup)
 (require 'nxml-setup)
+(require 'compile-setup)
 
 ;;Mainor mode setups
 (require 'yasnippet-setup)
