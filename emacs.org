@@ -32,7 +32,7 @@
 ** DONE Clear setup files from hardcoded path 
    Fixed in 76dc6447c03795f24f74b2f3ad06cf08b5c3929d
 ** DONE Move slime from system to .emacs.d (installation and configuration)
-** TODO Move CEDET from system to .emacs.d
+** TODO Move CEDET from system to .emacs.d and add mirror on git
 
 * Flymake-python
 
