@@ -16,3 +16,6 @@
 [submodule "cedet"]
 	path = cedet
 	url = http://git.randomsample.de/cedet.git
+[submodule "expand-region.el"]
+	path = expand-region.el
+	url = https://github.com/magnars/expand-region.el.git
