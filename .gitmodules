@@ -1,0 +1,9 @@
+[submodule "yasnippet"]
+	path = yasnippet
+	url = https://github.com/capitaomorte/yasnippet.git
+[submodule "auto-complete"]
+	path = auto-complete
+	url = https://github.com/m2ym/auto-complete
+[submodule "git-emacs"]
+	path = git-emacs
+	url = https://github.com/tsgates/git-emacs.git
