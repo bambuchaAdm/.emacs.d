@@ -7,3 +7,6 @@
 [submodule "git-emacs"]
 	path = git-emacs
 	url = https://github.com/tsgates/git-emacs.git
+[submodule "nyan-mode"]
+	path = nyan-mode
+	url = https://github.com/TeMPOraL/nyan-mode.git
