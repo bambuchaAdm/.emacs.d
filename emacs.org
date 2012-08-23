@@ -1,8 +1,8 @@
 * General fix and other things
 
 ** DONE Fix emacs load-path
-*** DONE Fix yassnipet (probably custom-load-path doesn't work)
-    Wrong use function expand-directory-name
+** DONE Fix yassnipet (probably custom-load-path doesn't work)
+   Wrong use function expand-directory-name
 ** DONE C-x C-b should run bs-show (now buffer-list)
    Just add require clausule.
 ** DONE Fullscreen after reload minimiezed windown
@@ -24,7 +24,7 @@
 ** DONE [#B] Add advice to compile window to focus on fail (or-moving to error line)
    Done by adding hook to compilation-finish-fucntions
 ** TODO [#C] Add nxml scheme for android mechanizm to nxml
-
+   
    
 * Emacs configs things
 

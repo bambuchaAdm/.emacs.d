@@ -21,6 +21,10 @@
 (require 'autocomplate-setup)
 (require 'flymake-setup)
 
+;;Temporaly for development semantic-ruby
+(add-to-list 'load-path "/home/bambucha/ruby/emacs")
+
+
 (put 'narrow-to-region 'disabled nil)
 (put 'narrow-to-defun 'disabled nil)
 (put 'narrow-to-page 'disabled nil)
