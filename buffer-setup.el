@@ -1,6 +1,6 @@
 (require 'uniquify)
 
-(iswitchb-mode 1)
+(ido-mode 1)
 (show-paren-mode 1)
 (auto-fill-mode 1)
 (setf uniquify-buffer-name-style 'post-forward)
