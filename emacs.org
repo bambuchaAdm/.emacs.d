@@ -28,12 +28,11 @@
    
 * Emacs configs things
 
-** TODO Make gitsubmodules for third-part modules
+** DONE Make gitsubmodules for third-part modules
 ** DONE Clear setup files from hardcoded path 
    Fixed in 76dc6447c03795f24f74b2f3ad06cf08b5c3929d
-** TODO Move slime from system to .emacs.d (installation and configuration
-** TODO Add link to git commit for config from this file
-
+** DONE Move slime from system to .emacs.d (installation and configuration)
+** TODO Move CEDET from system to .emacs.d
 
 * Flymake-python
 
@@ -44,7 +43,7 @@
 
 ** DONE Add support for testing tool (auto-run test for file/project)
    Moved to waspmake
-
+   
 
 * Read, imporve knowladge
 
