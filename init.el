@@ -20,6 +20,7 @@
 (require 'yasnippet-setup)
 (require 'autocomplate-setup)
 (require 'flymake-setup)
+(require 'smex-setup)
 
 ;;Temporaly for development semantic-ruby
 (add-to-list 'load-path "/home/bambucha/ruby/emacs")

@@ -2,8 +2,8 @@
 
 (require 'yasnippet)
 
+(setf yas-trigger-key nil) ;;use auto-complate as a trigger
 (setf yas/snippet-dirs  (list (create-path "yasnippet" "snippets")))
 (yas/global-mode 1)
-(global-set-key (kbd "C-c TAB") 'yas/expand)
 
 (provide 'yasnippet-setup)
