@@ -19,3 +19,6 @@
 [submodule "smex"]
 	path = smex
 	url = https://github.com/nonsequitur/smex
+[submodule "cedet"]
+	path = cedet
+	url = http://git.randomsample.de/cedet.git

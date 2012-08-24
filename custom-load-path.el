@@ -11,13 +11,19 @@
 (defun clear-from-parent-directory (paths)
   (remove-if (apply-partially #'string-match "^\\.+") paths))
 
-(defun make-absolute-paths (paths)
-  (mapcar #'(lambda (x) (expand-file-name x +bootstrap-path+)) paths))
+(defun make-absolute-paths (paths expand-file)
+  (mapcar #'(lambda (x) (expand-file-name x expand-file)) paths))
+
+(defun recursive-directory-file (path)
+  (when path
+    (let ((files (claer-form-parent-(directory-files path)))
+      
+      
 
 (defun get-absolut-bootstrap-directires ()
   (get-direcotries-form-directory-list
-   (clear-from-parent-directory
-    (make-absolute-paths 
+   (make-absolute-paths 
+    (clear-from-parent-directory
      (directory-files +bootstrap-path+)))))
 
 (defun add-paths-to-load-path (paths)
