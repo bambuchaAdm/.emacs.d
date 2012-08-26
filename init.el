@@ -2,7 +2,7 @@
 (add-to-list 'load-path +bootstrap-path+)
 
 (require 'custom-load-path)
-(require 'cedet-devel-load)
+(require 'cedet-setup)
 
 ;;Global misc setup
 (require 'os-setup)
