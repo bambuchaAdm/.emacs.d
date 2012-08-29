@@ -3,7 +3,7 @@
 	url = https://github.com/capitaomorte/yasnippet.git
 [submodule "auto-complete"]
 	path = auto-complete
-	url = https://github.com/m2ym/auto-complete
+	url = https://github.com/auto-complete/auto-complete.git
 [submodule "git-emacs"]
 	path = git-emacs
 	url = https://github.com/tsgates/git-emacs.git
@@ -22,3 +22,9 @@
 [submodule "cedet"]
 	path = cedet
 	url = http://git.randomsample.de/cedet.git
+[submodule "popup-el"]
+	path = popup-el
+	url = https://github.com/auto-complete/popup-el.git
+[submodule "fuzzy-el"]
+	path = fuzzy-el
+	url = https://github.com/auto-complete/fuzzy-el.git
