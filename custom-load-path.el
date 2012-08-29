@@ -1,6 +1,6 @@
 (require 'cl)
 
-(defun create-path (&rest directories)
+(defun create-directory-repository-path (&rest directories)
   (let ((directories (mapcar #'file-name-as-directory directories))
 	(bootstrap-path (file-name-as-directory +bootstrap-path+)))
     (apply #'concat bootstrap-path directories)))

@@ -1,9 +1,12 @@
-(defconst +bootstrap-path+ (file-name-directory
-			    (or (buffer-file-name) load-file-name)))
+(defconst +bootstrap-path+ (directory-file-name 
+			    (file-name-directory
+			     (or (buffer-file-name) load-file-name))))
+
 (add-to-list 'load-path +bootstrap-path+)
 
 (require 'custom-load-path)
 (require 'cedet-setup)
+(require 'package-setup)
 
 ;;Global misc setup
 (require 'os-setup)
