@@ -1,4 +1,5 @@
-(defconst +bootstrap-path+ "/home/bambucha/.emacs.d")
+(defconst +bootstrap-path+ (file-name-directory
+			    (or (buffer-file-name) load-file-name)))
 (add-to-list 'load-path +bootstrap-path+)
 
 (require 'custom-load-path)
