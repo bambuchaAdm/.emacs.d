@@ -1,10 +1,8 @@
-(require 'custom-load-path)
 (require 'auto-complete-config)
 
-(defconst +auto-complete-ditct-path+ (create-path "auto-compete" "ac-dict"))
-
-(add-to-list 'ac-dictionary-directories +auto-complete-ditct-path+)
 (ac-config-default)
+
 (global-set-key (kbd "<backtab>") #'auto-complete)
+(setq-default ac-sources (append '(ac-source-yasnippet) ac-sources))
 
 (provide 'autocomplate-setup)
