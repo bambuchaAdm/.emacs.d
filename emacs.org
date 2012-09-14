@@ -14,25 +14,31 @@
 
    
 * Improve emacs support for modes 
+** General
 
-** DONE [#A] Add timer to compile mode to automatic delete-window if compilation was sucess
-   Done by run one-shot timer in compilation-finish-function
-** DONE Move slime form system to .emacs.d directory 
-   Fixed by make load-path better  and use system-base (Gentoo) slime
-** TODO [#B] Change complete mechanizm to auto-complate in nxml-mode
-** TODO [#B] Add suport maven to flymake-mode
-** DONE [#B] Add advice to compile window to focus on fail (or-moving to error line)
-   Done by adding hook to compilation-finish-fucntions
-** TODO [#C] Add nxml scheme for android mechanizm to nxml
+*** DONE [#A] Add timer to compile mode to automatic delete-window if compilation was sucess
+    Done by run one-shot timer in compilation-finish-function
+*** DONE Move slime form system to .emacs.d directory 
+    Fixed by make load-path better  and use system-base (Gentoo) slime
+*** TODO [#B] Change complete mechanizm to auto-complate in nxml-mode
+*** DONE [#B] Add advice to compile window to focus on fail (or-moving to error line)
+    Done by adding hook to compilation-finish-fucntions
+*** TODO [#C] Add nxml scheme for android mechanizm to nxml
 
-      
+** JavaScript / Coffe
+
+*** DONE Install js2-mode
+
+
+
+	 
 * Emacs configs things
 
 ** DONE Make gitsubmodules for third-part modules
 ** DONE Clear setup files from hardcoded path 
    Fixed in 76dc6447c03795f24f74b2f3ad06cf08b5c3929d
 ** DONE Move slime from system to .emacs.d (installation and configuration)
-** TODO Move CEDET from system to .emacs.d and add mirror on git
+** DONE Move CEDET from system to .emacs.d and add mirror on git
 
 
 * Flymake-python
