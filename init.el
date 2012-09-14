@@ -20,6 +20,7 @@
 (require 'slime-setup)
 (require 'nxml-setup)
 (require 'compile-setup)
+(require 'js2-setup)
 
 ;;Mainor mode setups
 (require 'yasnippet-setup)
