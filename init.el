@@ -20,7 +20,7 @@
 (require 'slime-setup)
 (require 'nxml-setup)
 (require 'compile-setup)
-(require 'ruby-mode)
+(require 'ruby-setup)
 (require 'js2-setup)
 
 ;;Mainor mode setups
