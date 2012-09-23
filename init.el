@@ -23,7 +23,7 @@
 
 ;;Mainor mode setups
 (require 'yasnippet-setup)
-(require 'autocomplate-setup)
+(require 'auto-complete-setup)
 (require 'flymake-setup)
 (require 'expand-region-setup)
 (require 'smex-setup)
