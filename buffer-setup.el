@@ -1,6 +1,5 @@
 (require 'uniquify)
 
-(ido-mode 1)
 (show-paren-mode 1)
 (auto-fill-mode 1)
 (delete-selection-mode 1)

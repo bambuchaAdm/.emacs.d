@@ -34,3 +34,6 @@
 [submodule "coffee-mode"]
 	path = coffee-mode
 	url = https://github.com/defunkt/coffee-mode.git
+[submodule "ido-ubiquitous"]
+	path = ido-ubiquitous
+	url = https://github.com/technomancy/ido-ubiquitous.git

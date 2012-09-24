@@ -24,6 +24,7 @@
 (require 'js2-setup)
 
 ;;Mainor mode setups
+(require 'ido-setup)
 (require 'yasnippet-setup)
 (require 'auto-complete-setup)
 (require 'flymake-setup)
