@@ -37,3 +37,9 @@
 [submodule "ido-ubiquitous"]
 	path = ido-ubiquitous
 	url = https://github.com/technomancy/ido-ubiquitous.git
+[submodule "bundler.el"]
+	path = bundler.el
+	url = git://github.com/tobiassvn/bundler.el.git
+[submodule "inf-ruby"]
+	path = inf-ruby
+	url = git://github.com/nonsequitur/inf-ruby.git

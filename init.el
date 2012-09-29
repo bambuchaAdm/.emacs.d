@@ -31,6 +31,9 @@
 (require 'expand-region-setup)
 (require 'smex-setup)
 
+;;Utility
+(require 'bundler)
+
 (put 'narrow-to-region 'disabled nil)
 (put 'narrow-to-defun 'disabled nil)
 (put 'narrow-to-page 'disabled nil)
