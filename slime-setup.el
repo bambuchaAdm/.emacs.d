@@ -7,8 +7,9 @@
 
 (defun run-rt-test ()
   (interactive)
-  (slime-repl-clear-buffer)
-  (slime-eval '(rt:do-test)))
+  (with-current-buffer (slime-output-buffer)
+	(slime-repl-clear-buffer))
+  (slime-eval '(rt:do-tests)))
 
 (define-key lisp-mode-map (kbd "C-c r") #'run-rt-test)
 
