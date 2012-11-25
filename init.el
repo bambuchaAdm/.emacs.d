@@ -15,6 +15,7 @@
 (require 'enable-commands)
 
 ;;Major mode setups
+(require 'elisp-setup)
 (require 'cc-setup)
 (require 'python-setup)
 (require 'slime-setup)
