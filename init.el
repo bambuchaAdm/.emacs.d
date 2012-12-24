@@ -5,9 +5,11 @@
 (add-to-list 'load-path +bootstrap-path+)
 
 (require 'custom-load-path)
+(require 'cedet-setup)
 (require 'package-setup)
 
 ;;Global misc setup
+(require 'encoding)
 (require 'os-setup)
 (require 'buffer-setup)
 (require 'frame-setup)
