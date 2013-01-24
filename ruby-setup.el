@@ -1,4 +1,5 @@
 (require 'ruby-mode)
+(require 'rhtml-mode)
 
 (defun ruby--jump-to-test ()
   (find-file

@@ -15,6 +15,8 @@
   (setq coffee-tab-width 2))
 (add-hook 'coffee-mode-hook #'config-tab-width-with-coffee)
 
+(require 'auto-complete-setup)
+
 (add-to-list 'ac-modes #'coffee-mode)
 
 (provide 'coffee-setup)
