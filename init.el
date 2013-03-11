@@ -5,7 +5,6 @@
 (add-to-list 'load-path +bootstrap-path+)
 
 (require 'custom-load-path)
-(require 'cedet-setup)
 (require 'package-setup)
 
 ;;Global misc setup
