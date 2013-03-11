@@ -1,10 +1,7 @@
 (require 'flymake)
 
-(defun django-project-p (source-path)
-  (flymake-find-buildfile "manage.py" source-path))
-
 (defun handle-oridinary-python-file (file-name)
-  (list "python" (list file-name)))
+  (list "python" (list "-m" "py_compile" file-name)))
 
 (defconst +app-regexp+ "\\([^/]*\\)/*")
 
@@ -16,7 +13,6 @@
 	(appname (progn (string-match regexp file-path) (match-string 1 file-path))))
     (list "python" (list (expand-file-name manage-file) "test" appname))))
 
-
 (defun flymake-python-init ()
   (let* ((temp-file (flymake-init-create-temp-buffer-copy
 		     'flymake-create-temp-inplace))
@@ -27,14 +23,11 @@
 	(handle-django-project-file local-file)
 	(handle-oridinary-python-file local-file))))
 
-
-
 (add-to-list 'flymake-allowed-file-name-masks
  '(".+\\.py$" flymake-python-init flymake-simple-cleanup flymake-get-real-file-name))
 
 ;file line column err-text-idx
 (add-to-list 'flymake-err-line-patterns
-     '("File \"\\(.*\\)\", line \\(.*\\), in \\(.*\\(:?\n.*\n\\).*\\)" 1 2 nil 3))
-
+     '("^\\([[:alpha:]]+\\):.+'\\([[:alpha:] ]+\\).+('\\(.+\\)', +\\([0-9]+\\), +\\([0-9]+\\)" 3 4 5 2))
 
 (provide 'flymake-python)
