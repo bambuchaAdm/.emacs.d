@@ -19,9 +19,6 @@
 [submodule "smex"]
 	path = smex
 	url = https://github.com/nonsequitur/smex
-[submodule "cedet"]
-	path = cedet
-	url = http://git.randomsample.de/cedet.git
 [submodule "popup-el"]
 	path = popup-el
 	url = https://github.com/auto-complete/popup-el.git
