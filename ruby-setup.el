@@ -47,6 +47,21 @@
 
 (define-key ruby-mode-map (kbd "C-c o d") 'bracket-block-to-do-end)
 
+(defun extract-to-variable (text)
+  "Insert string around mark region"
+  (interactive "sName:")
+  (save-excursion
+	(kill-region (mark) (point))
+	(search-backward "\n")
+	(newline)
+	(insert text)
+	(insert " = ")
+	(yank))
+  (insert text))
+
+(define-key ruby-mode-map (kbd "C-c o r") 'extract-to-variable)
+
+
 
 (add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.watchr$" . ruby-mode))
