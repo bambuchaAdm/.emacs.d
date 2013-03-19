@@ -25,6 +25,29 @@
 
 (define-key ruby-mode-map (kbd "C-c j") 'ruby-jump-to-other)
 
+(defun do-end-to-bracket-block ()
+  (interactive)
+  (save-excursion
+        (search-backward-regexp " do *\\(|.+|\\)? *\n\s*")
+        (replace-match "{ \\1 ")
+        (search-forward-regexp "\n *end")
+        (replace-match "}")))
+
+(define-key ruby-mode-map (kbd "C-c o b") 'do-end-to-bracket-block)
+
+(defun bracket-block-to-do-end ()
+  (interactive)
+  (save-excursion
+        (search-backward-regexp "{ *\\(|[^|]+|\\)?")
+        (replace-match " do \\1\n")
+        (let ((content-start (point)))
+          (search-forward "}")
+          (replace-match "\nend")
+          (indent-region content-start (point)))))
+
+(define-key ruby-mode-map (kbd "C-c o d") 'bracket-block-to-do-end)
+
+
 (add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.watchr$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Rakefile$" . ruby-mode))
