@@ -2,9 +2,10 @@
 
 (require 'yasnippet)
 
-(setf yas-trigger-key nil) ;;use auto-complate as a trigger
-(setf yas/snippet-dirs 
-      (list (create-directory-repository-path "yasnippet" "snippets")))
-(yas/global-mode 1)
+(setq yas-trigger-key nil
+	  yas/triggers-in-field t
+	  yas/snippet-dirs (list (create-directory-repository-path "snippets")))
+(yas-reload-all)
+(yas-global-mode 1)
 
 (provide 'yasnippet-setup)

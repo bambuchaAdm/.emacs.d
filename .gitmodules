@@ -43,3 +43,12 @@
 [submodule "rhtml"]
 	path = rhtml
 	url = git://github.com/eschulte/rhtml.git
+[submodule "yaml-mode"]
+	path = yaml-mode
+	url = https://github.com/yoshiki/yaml-mode.git
+[submodule "scala-mode"]
+	path = scala-mode
+	url = https://github.com/haxney/scala-mode
+[submodule "snippets"]
+	path = snippets
+	url = git@github.com:bambuchaAdm/snippets.git

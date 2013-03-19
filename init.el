@@ -23,6 +23,7 @@
 (require 'ruby-setup)
 (require 'js2-setup)
 (require 'coffee-setup )
+(require 'yaml-setup )
 
 ;;Mainor mode setups
 (require 'ido-setup)
