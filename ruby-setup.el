@@ -4,7 +4,7 @@
 (defun ruby--jump-to-test ()
   (find-file
    (replace-regexp-in-string
-    "/lib/" "/spec/"
+    "/app/" "/spec/"
     (replace-regexp-in-string
      "/\\([^/]+\\).rb$" "/\\1_spec.rb"
      (buffer-file-name)))))
@@ -12,7 +12,7 @@
 (defun ruby--jump-to-lib ()
   (find-file
    (replace-regexp-in-string
-    "/spec/" "/lib/"
+    "/spec/" "/app/"
     (replace-regexp-in-string
      "/\\([^/]+\\)_spec.rb$" "/\\1.rb"
      (buffer-file-name)))))
@@ -28,20 +28,22 @@
 (defun do-end-to-bracket-block ()
   (interactive)
   (save-excursion
-	(search-backward-regexp " do *\\(|.+|\\)? *\n\s*")
-	(replace-match "{ \\1 ")
-	(search-forward-regexp "\n *end")
-	(replace-match "}")))
+        (search-backward-regexp " do *\\(|.+|\\)? *\n\s*")
+        (replace-match "{ \\1 ")
+        (search-forward-regexp "\n *end")
+        (replace-match "}")))
+
+(define-key ruby-mode-map (kbd "C-c o b") 'do-end-to-bracket-block)
 
 (defun bracket-block-to-do-end ()
   (interactive)
   (save-excursion
-	(search-backward-regexp "{ *\\(|[^|]+|\\)?")
-	(replace-match " do \\1\n")
-	(let ((content-start (point)))
-	  (search-forward "}")
-	  (replace-match "\nend")
-	  (indent-region content-start (point)))))
+        (search-backward-regexp "{ *\\(|[^|]+|\\)?")
+        (replace-match " do \\1\n")
+        (let ((content-start (point)))
+          (search-forward "}")
+          (replace-match "\nend")
+          (indent-region content-start (point)))))
 
 (define-key ruby-mode-map (kbd "C-c o d") 'bracket-block-to-do-end)
 (define-key ruby-mode-map (kbd "C-c o b") 'do-end-to-bracket-block)
