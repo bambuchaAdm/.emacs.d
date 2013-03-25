@@ -52,3 +52,6 @@
 [submodule "snippets"]
 	path = snippets
 	url = git@github.com:bambuchaAdm/snippets.git
+[submodule "scss-mode"]
+	path = scss-mode
+	url = https://github.com/antonj/scss-mode.git
