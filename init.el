@@ -24,8 +24,9 @@
 (require 'compile-setup)
 (require 'ruby-setup)
 (require 'js2-setup)
-(require 'coffee-setup )
-(require 'yaml-setup )
+(require 'coffee-setup)
+(require 'yaml-setup)
+(require 'css-setup)
 
 ;;Mainor mode setups
 (require 'ido-setup)
@@ -37,6 +38,7 @@
 
 ;;Utility
 (require 'bundler)
+(require 'mozrepl-setup)
 
 (put 'narrow-to-region 'disabled nil)
 (put 'narrow-to-defun 'disabled nil)
