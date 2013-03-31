@@ -27,7 +27,7 @@
 (require 'coffee-setup)
 (require 'yaml-setup)
 (require 'css-setup)
-(require 'scss-mode-setup)
+(require 'scss-setup)
 
 ;;Mainor mode setups
 (require 'ido-setup)
