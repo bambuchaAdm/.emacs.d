@@ -1,0 +1,21 @@
+* Bambucha's .emacs.d files
+
+Bunch of modules, which are connect with each other,using a universal duct tape in emasc (elisp).
+
+Some of them are write by myself.
+Some of them are form [mangers .emacs.d[https://github.com/magnars/.emacs.d]. Thanks !
+
+** Starting
+
++ Clone repository to your home
++ enter to =.emacs.d= dir and run =make= 
+  This command will checkout all dependencies and compile some of them.
+
+** Contributing
+
++ Fork the repo
++ Make changes
++ Make pull request
++ Profit ?!
+
+
