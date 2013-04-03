@@ -3,7 +3,7 @@
 Bunch of modules, which are connect with each other,using a universal duct tape in emasc (elisp).
 
 Some of them are write by myself.
-Some of them are form [mangers .emacs.d[https://github.com/magnars/.emacs.d]. Thanks !
+Some of them are form [[https://github.com/magnars/.emacs.d][magnar's .emasc.d ]]. Thanks !
 
 ** Starting
 
@@ -19,3 +19,4 @@ Some of them are form [mangers .emacs.d[https://github.com/magnars/.emacs.d]. Th
 + Profit ?!
 
 
+   
