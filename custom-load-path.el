@@ -21,7 +21,7 @@
      (directory-files +bootstrap-path+)))))
 
 (defun add-paths-to-load-path (paths)
-  (mapcar (apply-partialny #'add-to-list 'load-path) paths))
+  (mapcar (apply-partialy #'add-to-list 'load-path) paths))
 
 (add-paths-to-load-path (get-absolut-bootstrap-directires))
  
