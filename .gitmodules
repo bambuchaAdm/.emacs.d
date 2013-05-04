@@ -36,13 +36,13 @@
 	url = https://github.com/technomancy/ido-ubiquitous.git
 [submodule "bundler.el"]
 	path = bundler.el
-	url = git://github.com/tobiassvn/bundler.el.git
+	url = https://github.com/tobiassvn/bundler.el.git
 [submodule "inf-ruby"]
 	path = inf-ruby
-	url = git://github.com/nonsequitur/inf-ruby.git
+	url = https://github.com/nonsequitur/inf-ruby.git
 [submodule "rhtml"]
 	path = rhtml
-	url = git://github.com/eschulte/rhtml.git
+	url = https://github.com/eschulte/rhtml.git
 [submodule "yaml-mode"]
 	path = yaml-mode
 	url = https://github.com/yoshiki/yaml-mode.git
@@ -51,7 +51,7 @@
 	url = https://github.com/haxney/scala-mode
 [submodule "snippets"]
 	path = snippets
-	url = git@github.com:bambuchaAdm/snippets.git
+	url = https://github.com/bambuchaAdm/snippets.git
 [submodule "scss-mode"]
 	path = scss-mode
 	url = https://github.com/antonj/scss-mode.git
