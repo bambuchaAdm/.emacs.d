@@ -10,4 +10,6 @@
   (comint-send-string (inferior-moz-process)
 					  (concat moz-repl-name ".popenv('printPrompt')")))
 
+(global-set-key (kbd "<f5>") 'moz-refresh-page)
+
 (provide 'mozrepl-setup)
