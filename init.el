@@ -28,6 +28,7 @@
 (require 'yaml-setup)
 (require 'css-setup)
 (require 'scss-setup)
+(require 'jade-setup)
 
 ;;Mainor mode setups
 (require 'ido-setup)

@@ -55,3 +55,6 @@
 [submodule "scss-mode"]
 	path = scss-mode
 	url = https://github.com/antonj/scss-mode.git
+[submodule "jade-mode"]
+	path = jade-mode
+	url = https://github.com/brianc/jade-mode
