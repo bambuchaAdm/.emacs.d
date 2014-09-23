@@ -1,13 +1,16 @@
 (require 'uniquify)
 
 (show-paren-mode 1)
-(auto-fill-mode 1)
+
+;;(auto-fill-mode 1) ;; not-effect
+
 (delete-selection-mode 1)
 (setf uniquify-buffer-name-style 'post-forward)
 
-(set-default 'tab-width 4)
+(set-default 'tab-width 2)
 
 (require 'bs)
+
 (global-set-key (kbd "C-x C-b") #'bs-show)
 
 
@@ -18,6 +21,7 @@
   (insert text)
   (exchange-point-and-mark)
   (insert text))
+
 (global-set-key (kbd "C-'") #'insert-quoutes-over-mark)
 
 (provide 'buffer-setup)

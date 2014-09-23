@@ -17,6 +17,7 @@
   (let ((function (apply-partially #'close-compilation-window-when-success buffer)))
     (when (string-match-p "finished" message)
       (run-with-timer 1 nil function))))
+
 (add-hook 'compilation-finish-functions #'layzzy-close-compilation-window)
 
 (provide 'compile-setup)
