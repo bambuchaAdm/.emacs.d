@@ -29,6 +29,7 @@
 (require 'css-setup)
 (require 'scss-setup)
 (require 'jade-setup)
+(require 'go-setup)
 
 ;;Mainor mode setups
 (require 'ido-setup)

@@ -58,3 +58,6 @@
 [submodule "jade-mode"]
 	path = jade-mode
 	url = https://github.com/brianc/jade-mode
+[submodule "go-mode.el"]
+	path = go-mode.el
+	url = https://github.com/dominikh/go-mode.el
