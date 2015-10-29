@@ -11,8 +11,8 @@
 ;;Global misc setup
 (require 'encoding)
 (require 'os-setup)
-(require 'buffer-setup)
 (require 'frame-setup)
+(require 'buffer-setup)
 (require 'enable-commands)
 
 ;;Major mode setups
@@ -30,6 +30,7 @@
 (require 'scss-setup)
 (require 'jade-setup)
 (require 'go-setup)
+(require 'nim-setup)
 
 ;;Mainor mode setups
 (require 'ido-setup)

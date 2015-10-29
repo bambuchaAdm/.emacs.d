@@ -61,3 +61,15 @@
 [submodule "go-mode.el"]
 	path = go-mode.el
 	url = https://github.com/dominikh/go-mode.el
+[submodule "nim-mode"]
+	path = nim-mode
+	url = https://github.com/nim-lang/nim-mode.git
+[submodule "emacs-epc"]
+	path = emacs-epc
+	url = https://github.com/kiwanami/emacs-epc.git
+[submodule "emacs-deferred"]
+	path = emacs-deferred
+	url = https://github.com/kiwanami/emacs-deferred.git
+[submodule "emacs-ctable"]
+	path = emacs-ctable
+	url = https://github.com/kiwanami/emacs-ctable.git
